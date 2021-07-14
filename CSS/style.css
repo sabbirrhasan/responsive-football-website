@@ -91,7 +91,6 @@ a span{
 /* Universal CSS End*/
 
 
-
 /* Header & Banner Section Style Start */
 header{
     background-color: #2D25A0;
@@ -142,7 +141,6 @@ header{
 /* Header & Banner Section Style End */
 
 
-
 /* Top Players Section Style Start */
 #top-player{
     margin-top: 70px;
@@ -190,8 +188,6 @@ header{
 /* Top Players Section Style End */
 
 
-
-
 /* Trending Section Style Start */
 .trending{
     display: grid;
@@ -227,7 +223,6 @@ header{
     cursor: pointer;
 }
 /* Trending Section Style End */
-
 
 
 /* Features Section Style Start */
@@ -268,7 +263,6 @@ header{
     margin-top: 10px;
 }
 /* Features Section Style End */
-
 
 
 /* Bottom Banner Section Style Start */
@@ -321,7 +315,6 @@ header{
 /* Bottom Banner Section Style End */
 
 
-
 /* Footer Section Style Start */
 .footer-logo img{
     width: 483.87px;
@@ -360,6 +353,7 @@ footer{
 
 /* Media Queries For Mobile Device Start*/
 @media only screen and (min-width:275px) and (max-width: 480px) {
+    /* Queries For Universal CSS Responsive Start */
     .section-heading-text{
         font-size: 30px;
     }
@@ -384,6 +378,9 @@ footer{
     .read-more-button:hover{
         font-size: 11px;
     }
+    /* Queries For Universal CSS Responsive End */
+
+    /* Queries For Header & Banner Section Responsive Start */
     header{
         height: auto;
     }
@@ -405,6 +402,9 @@ footer{
         max-width: 100%;
         height: auto;
     }
+    /* Queries For Header & Banner Section Responsive End */
+
+    /* Queries For Top Players Section Responsive Start */
     .top-players{
         grid-template-columns: repeat(1, 1fr);
         margin: 47px 15px;
@@ -427,6 +427,9 @@ footer{
     .player p{
         width: 230px;
     }
+    /* Queries For Top Players Section Responsive End */
+
+    /* Queries For Trending Section Responsive Start */
     .trending{
         grid-template-columns: repeat(1, 1fr);
         margin: 47px 15px;
@@ -451,6 +454,9 @@ footer{
        font-size: 10px;
        margin-top: 5px;
     }
+    /* Queries For Trending Section Responsive End */
+
+    /* Queries For Features Section Responsive Start */
     .features{
         grid-template-columns: repeat(1, 1fr);
         margin: 47px 15px;
@@ -465,6 +471,9 @@ footer{
     .features-news-title p{
         width: 220px;
     }
+    /* Queries For Features Section Responsive End */
+
+    /* Queries For Bottom Banner Section Responsive Start */
     .bottom-banner{
         flex-direction: column;
         padding-top: 5px;
@@ -484,7 +493,7 @@ footer{
         height: 120px;
         font-size: 12px;
         line-height: 20px;
-        margin-left: 30px;
+        margin-left: 20px;
         margin-right: 20px;
     }
     .bottom-banner-text .button{
@@ -495,10 +504,14 @@ footer{
         width: 328px;
         height: 248px;
     }
+    /* Queries For Bottom Banner Section Responsive End */
+
+    /* Queries For Footer Section Responsive Start */
     .footer-logo img{
-        width: 85%;
+        width: 65%;
         height: 100%;
     }
+    /* Queries For Footer Section Responsive End */
 
 }
 /* Media Queries For Mobile Device End*/
@@ -507,6 +520,7 @@ footer{
 
 /* Media Queries For Tablet Device Start */
 @media only screen and (min-width: 481px) and (max-width: 990px){
+    /* Queries For Universal CSS Responsive Start */
     .section-heading-text{
         font-size: 35px;
     }
@@ -517,8 +531,8 @@ footer{
         font-size: 20px;
     }
     .button{
-        font-size: 14px;
-        padding: 5px 18px;
+        font-size: 12px;
+        padding: 8px 20px;
     }
     .see-more-button a{
         font-size: 15px;
@@ -531,6 +545,9 @@ footer{
     .read-more-button:hover{
         font-size: 14px;
     }
+    /* Queries For Universal CSS Responsive End */
+    
+    /* Queries For Header & Banner Section Responsive Start */
     header{
         height: auto;
     }
@@ -552,10 +569,9 @@ footer{
         width: 349px;
         height: 289.17px;  
     }
-    .button{
-        font-size: 12px;
-        padding: 8px 20px;
-    }
+    /* Queries For Header & Banner Section Responsive End */
+
+    /* Queries For Top Players Section Responsive Start */
     .top-players{
         grid-template-columns: repeat(2, 1fr);
         margin: 47px 15px;
@@ -580,6 +596,9 @@ footer{
     .player p{
         width: 190px;
     }
+    /* Queries For Top Players Section Responsive End */
+    
+    /* Queries For Trending Section Responsive Start */
     .trending{
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 15px;
@@ -597,6 +616,9 @@ footer{
         display: inline-block;
         text-align: center;
     }
+    /* Queries For Trending Section Responsive End */
+
+    /* Queries For Features Section Responsive Start */
     .features{
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 15px;
@@ -612,6 +634,9 @@ footer{
     .features-news-title p{
         width: 220px;
     }
+    /* Queries For Features Section Responsive End */
+
+    /* Queries For Bottom Banner Section Responsive Start */
     .bottom-banner{
         flex-direction: column;
         padding-top: 5px;
@@ -640,5 +665,14 @@ footer{
         width: 328px;
         height: 248px;
     }
+    /* Queries For Bottom Banner Section Responsive End */
+
+    /* Queries For Footer Section Responsive Start */
+    .footer-logo img{
+        width: 35%;
+        height: 100%;
+    }
+    /* Queries For Footer Section Responsive End */
+
 }
 /* Media Queries For Tablet Device End*/
