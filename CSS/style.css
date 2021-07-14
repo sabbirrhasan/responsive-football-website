@@ -386,6 +386,8 @@ footer{
     }
     .banner-container{
         flex-direction: column;
+        padding-top: 112px;
+        padding-bottom: 65px;
     }
     .banner-text{
         text-align: center;
@@ -553,6 +555,8 @@ footer{
     }
     .banner-container{
         flex-direction: column;
+        padding-top: 125px;
+        padding-bottom: 65px;
     }
     .banner-text{
         text-align: center;
@@ -675,4 +679,4 @@ footer{
     /* Queries For Footer Section Responsive End */
 
 }
-/* Media Queries For Tablet Device End*/
+/* Media Queries For Tablet Device End */
